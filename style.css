@@ -28,10 +28,14 @@ h1:nth-of-type(2) {
 .kaire {
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #ff6147;
     margin: 10px;
+    flex-direction: column;
+}
+.kaire p {
+    margin-bottom: 150px;
 }
 
 .desine {
@@ -95,6 +99,9 @@ h1:nth-of-type(2) {
     display: grid;
     justify-content: center;
     align-items: center;
+}
+.one p {
+    margin-bottom: 150px;
 }
 
 .two {
